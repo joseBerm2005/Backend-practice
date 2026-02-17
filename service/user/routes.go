@@ -23,6 +23,6 @@ func (h *Handler) RegisterRoutes(router *mux.Router) {
 func (h *Handler) handleLogin(w http.ResponseWriter, r *http.Request) {
 
 }
-/* func (h *Handler) handlerRegister(w http.ResponseWriter, r *http.Request) {
+func (h *Handler) handlerRegister(w http.ResponseWriter, r *http.Request) {
 
-} */
+} 
